@@ -8,7 +8,13 @@
  ```
  MONGODB_URL:mongodb+srv://pankaj:pankaj@cluster0.xsnygdl.mongodb.net/ToDoApp?retryWrites=true&w=majority    
 ``` 
-**Endpoints**    
+
+## API LINK:  
+``` 
+https://todoapp-backend-iic4.onrender.com
+```
+
+## Endpoints    
 **GET /api**   
 Returns a list of all todos in the database.
 
