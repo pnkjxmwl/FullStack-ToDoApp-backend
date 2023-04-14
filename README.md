@@ -2,11 +2,11 @@
 
 ## This API is built using Node.js and MongoDB to manage a simple todo list. The following endpoints are available:
 
-**Endpoints**
-**GET /api**
+**Endpoints**    
+**GET /api**   
 Returns a list of all todos in the database.
 
-Response json
+Response json  
 ```
 [
   {
@@ -26,9 +26,9 @@ Response json
 ]
 ```
 
-**POST /api/save**
-Creates a new todo in the database.
-
+**POST /api/save**    
+Creates a new todo in the database.   
+ 
 Request json
 ```
 {
@@ -48,9 +48,9 @@ Response json
 }
 ```
 
-**POST /api/update**
+**POST /api/update**   
 
-Updates an existing todo in the database.
+Updates an existing todo  in the database.
 
 Request json
 ```
@@ -66,7 +66,7 @@ Response text
 Updated Successfully...
 ```
 
-**POST /api/delete**
+**POST /api/delete**    
 
 Marks an existing todo as deleted.
 
@@ -80,7 +80,7 @@ Response text
 ```
 Deleted Successfully...
 ```
-**Models**
+**Models**    
 The ToDo model has the following properties:
 
 json
@@ -100,18 +100,18 @@ json
 }
 ```
 ## Technologies Used
--Node.js
--MongoDB
+-Node.js   
+-MongoDB  
 
-## Dependencies
--Express.js
--Mongoose
--Dotenv
--Cors
+## Dependencies  
+-Express.js   
+-Mongoose   
+-Dotenv   
+-Cors  
 
 ## Running Locally
--Clone the repository: git clone https://github.com/username/repo.git                    
--Navigate to the project directory: cd repo
--Install dependencies: npm install
--Create a .env file and add your MongoDB URL: MONGODB_URL=mongodb://<username>:<password>@<host>:<port>/<database>
--Start the server: npm start
+-Clone the repository: git clone https://github.com/username/repo.git                       
+-Navigate to the project directory: cd repo     
+-Install dependencies: npm install    
+-Create a .env file and add your MongoDB URL: MONGODB_URL=mongodb://<username>:<password>@<host>:<port>/<database>     
+-Start the server: npm start    
