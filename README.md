@@ -2,6 +2,11 @@
 
 ## This API is built using Node.js and MongoDB to manage a simple todo list. The following endpoints are available:
 
+## Environmental Variables  
+ 
+ **.env**:  
+ MONGODB_URL:mongodb+srv://pankaj:pankaj@cluster0.xsnygdl.mongodb.net/ToDoApp?retryWrites=true&w=majority    
+
 **Endpoints**    
 **GET /api**   
 Returns a list of all todos in the database.
