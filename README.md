@@ -110,7 +110,7 @@ json
 -Cors  
 
 ## Running Locally
--Clone the repository: git clone https://github.com/username/repo.git                       
+-Clone the repository:  git clone https://github.com/pnkjxmwl/FullStack-ToDoApp-backend.git                       
 -Navigate to the project directory: cd repo     
 -Install dependencies: npm install    
 -Create a .env file and add your MongoDB URL: MONGODB_URL=mongodb://<username>:<password>@<host>:<port>/<database>     
